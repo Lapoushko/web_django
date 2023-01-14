@@ -29,7 +29,7 @@ img {
 }
 
 body {
-    font-family: 'TangoDi', 'Verdana';
+    font-family: 'Comic Sans MS', 'Verdana';
     font-weight: 400;
 }
 
@@ -160,7 +160,7 @@ header {
     padding-bottom: 8px;
     color: black;
     font-weight: 600;
-    font-size: 32px;
+    font-size: 26px;
     line-height: 35px;
     margin: 0;
     transition: background-color 0.3s ease-in,color 0.3s ease-in-out;
@@ -236,7 +236,7 @@ header {
 .paragraph {
         width: 106%;
     font-weight: 500;
-    font-size: 34px;
+    font-size: 26px;
     line-height: 35px;
     color: black;
     margin-left: 50px;
@@ -245,14 +245,14 @@ header {
 .p__img1 {
     width: 106%;
     font-weight: 500;
-    font-size: 34px;
+    font-size: 26px;
     line-height: 35px;
     color: black;
 }
 
 .p__img {
     font-weight: 600;
-    font-size: 30px;
+    font-size: 26px;
     line-height: 40px;
     margin: 0;
     color: #9aa6cb;
@@ -261,7 +261,7 @@ header {
 .list_title {
     color: #fdf1d2;
     font-weight: 600;
-    font-size: 34px;
+    font-size: 26px;
     line-height: 30px;
     margin: 0;
     margin-bottom: 20px;
@@ -279,7 +279,7 @@ header {
 .minuses {
     width: 109%;
     font-weight: 500;
-    font-size: 34px;
+    font-size: 26px;
     line-height: 35px;
 }
 
@@ -289,7 +289,7 @@ header {
     margin-top: -139px;
     color: black;
     font-weight: 600;
-    font-size: 34px;
+    font-size: 26px;
     line-height: 43px;
     margin-bottom: 30px;
 }
@@ -305,7 +305,7 @@ header {
 .fullstack__skill {
     width: 98%;
     font-weight: 400;
-    font-size: 34px;
+    font-size: 26px;
     line-height: 25px;
     color: white;
 }
