@@ -15,12 +15,12 @@ a {
 }
 
 th {
-    color: #7352FF;
+    color: black;
     padding: 10px;
 }
 
 td {
-    color: #7352FF;
+    color: black;
     padding: 10px;
 }
 
@@ -29,7 +29,7 @@ img {
 }
 
 body {
-    font-family: 'Comic Sans MS', 'Verdana';
+    font-family: 'TangoDi', 'Verdana';
     font-weight: 400;
 }
 
@@ -137,7 +137,7 @@ header {
 }
 
 .links {
-    background-color: #ffffff;
+    background-color: #fdf1d2;
     border: 8px solid black;
     padding: 18px;
     padding-left: 39px;
@@ -152,7 +152,7 @@ header {
 
 .link-menu {
     border: 5px solid black;
-    background-color: white;
+    background-color: #b7aaf1;
     border-radius: 16px;
     text-align: center;
     padding: 25px;
@@ -160,7 +160,7 @@ header {
     padding-bottom: 8px;
     color: black;
     font-weight: 600;
-    font-size: 22px;
+    font-size: 32px;
     line-height: 35px;
     margin: 0;
     transition: background-color 0.3s ease-in,color 0.3s ease-in-out;
@@ -215,7 +215,7 @@ header {
 
 .title-of-section {
     margin: 0;
-    color: #7352FF;
+    color: #fdf1d2;
     margin-left: 71px;
     font-weight: 800;
     font-size: 40px;
@@ -236,7 +236,7 @@ header {
 .paragraph {
         width: 106%;
     font-weight: 500;
-    font-size: 26px;
+    font-size: 34px;
     line-height: 35px;
     color: black;
     margin-left: 50px;
@@ -245,7 +245,7 @@ header {
 .p__img1 {
     width: 106%;
     font-weight: 500;
-    font-size: 26px;
+    font-size: 34px;
     line-height: 35px;
     color: black;
 }
@@ -259,9 +259,9 @@ header {
 }
 
 .list_title {
-    color: white;
+    color: #fdf1d2;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 34px;
     line-height: 30px;
     margin: 0;
     margin-bottom: 20px;
@@ -279,7 +279,7 @@ header {
 .minuses {
     width: 109%;
     font-weight: 500;
-    font-size: 26px;
+    font-size: 34px;
     line-height: 35px;
 }
 
@@ -289,7 +289,7 @@ header {
     margin-top: -139px;
     color: black;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 34px;
     line-height: 43px;
     margin-bottom: 30px;
 }
@@ -305,7 +305,7 @@ header {
 .fullstack__skill {
     width: 98%;
     font-weight: 400;
-    font-size: 23px;
+    font-size: 34px;
     line-height: 25px;
     color: white;
 }
@@ -466,7 +466,7 @@ tr {
 }
 
 table {
-    background-color: white;
+    background-color: #fdf1d2;
 }
 
 .dataframe1 {
