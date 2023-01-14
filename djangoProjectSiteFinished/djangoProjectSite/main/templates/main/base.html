@@ -1,0 +1,44 @@
+{% load static %}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href=" {% static 'main/css/style.css' %} ">
+    <link rel="stylesheet" href=" {% static 'main/css/normalize.css' %} ">
+    <link rel="shortcut icon" href="{% static 'main/img/iconcomp.png' %}" type="image/png">
+</head>
+<body class="body_page" style="background-color:#b7aaf1" ;>
+    <header class="header__container">
+        <div class="header__container flex">
+            <h1 class="name_header">Профессия GameDev</h1>
+
+        </div>
+    </header>
+
+    <main class="main">
+    <div class="section section__menu flex container">
+        <div>
+            <div class="list-reset links flex">
+                <button class="btn-reset link-menu"><a href="{% url 'main' %}">Главная</a></button>
+                <button class="btn-reset link-menu"><a href="{% url 'demand' %}">Востребованность</a></button>
+                <button class="btn-reset link-menu"><a href="{% url 'geography' %}">География</a></button>
+                <button class="btn-reset link-menu"><a href="{% url 'skills' %}">Навыки</a></button>
+            </div>
+        </div>
+        {% block content %}{% endblock %}
+    </div>
+    </main>
+
+    {% block blockdown %}{% endblock %}
+
+    <footer class="footer__info">
+        <p class="footer-descr">Довгий Вадим Игоревич</p>
+        <p class="footer-descr">РИ-210942</p>
+    </footer>
+</body>
+</html>
